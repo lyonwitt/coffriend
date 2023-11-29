@@ -1,0 +1,266 @@
+/* MENU */
+.img-cover {
+    max-width: 120px !important;
+    height: 100% !important;
+    object-fit: cover;
+}
+
+nav {
+    font-weight: 500;
+}
+
+nav.bg-light {
+    background-color: #E3E3E3 !important;
+    border-bottom: solid 4px #B25900;
+}
+
+.bt-navbar {
+    color: #222222 !important;
+}
+
+.navbar-brand {
+    margin: 0 auto !important;
+}
+
+nav li.dropdown .fa-chevron-down {
+    color: #B25900 !important;
+}
+
+@media screen and (max-width: 1023px) {
+    nav .menu-geral .navbar-nav {
+        margin-top: 1rem;
+        border-top: solid 1px #CCC;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    nav .menu-geral {
+        display: flex;
+        justify-content: end;
+        margin-top: 0 !important;
+    }
+
+    nav .menu-geral .navbar-nav {
+        margin-top: 0 !important;
+    }
+}
+
+.btn-login {
+    font-weight: bold;
+    color: #B25900;
+    border: solid 2px #B25900 !important;
+    border-radius: 5px !important;
+    transition: ease .5s;
+}
+
+.btn-login:hover {
+    opacity: .2;
+}
+
+.btn-cadastro {
+    font-weight: bold;
+    color: #222;
+    background-color: #222;
+    border: solid 2px #222 !important;
+    border-radius: 5px !important;
+    transition: ease .5s;
+}
+
+.btn-cadastro:hover {
+    opacity: .2;
+}
+
+.dropdown-item:hover {
+    background-color: #222 !important;
+    color: #EEE !important;
+    transition: ease .5s;
+}
+
+/* SEÇÃO USUÁRIO */
+.sec-user {
+    background-color: #222;
+    width: 100vw;
+}
+
+.dados-user {
+    height: 80px;
+}
+
+.img-perfil {
+    width: 65px;
+    height: 65px;
+    border: solid 3px #B25900;
+}
+
+.btn-user-1 {
+    color: #EEE;
+    font-weight: 400;
+    background-color: #B25900;
+    border: solid 2px #B25900;
+    border-radius: 5px !important;
+    transition: ease .5s;
+}
+
+.btn-user-1:hover {
+    background-color: #222;
+    border: solid 2px #222;
+}
+
+.btn-logout {
+    color: #EEE;
+    font-weight: 400;
+    border: solid 2px #EEE !important;
+    border-radius: 5px !important;
+    transition: ease .5s;
+}
+
+.btn-logout:hover {
+    opacity: .2;
+}
+
+/* SLIDES */
+.carousel-inner {
+    width: 100% !important;
+    height: 300px !important;
+}
+
+.carousel-inner img {
+    width: 100% !important;
+    height: 300px !important;
+    object-fit: cover !important;
+}
+
+#carouselExampleIndicators {
+    width: 100% !important;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    color: #E17100 !important;
+    font-size: 2rem;
+}
+
+
+/* MAIN - PUBLICAÇÕES */
+.publicacoes {
+    background-color: #F5f5f5;
+}
+
+.top-publi {
+    color: #222;
+    background: none;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.middle-publi {
+    background-color: #b2590000;
+    border-top: solid 2px #222;
+}
+
+.public {
+    background-color: #EEE;
+    border: solid 1px #B25900;
+    width: 100%;
+}
+
+@media screen and (min-width: 992px) {
+    .public {
+        background-color: #E6E6E6;
+        width: 48.2%;
+    }
+}
+
+.public .img-publi {
+    height: 180px;
+    border-right: solid 2px #B25900;
+    border-bottom: none;
+    border-top: none;
+    border-left: none;
+    position: relative;
+}
+
+@media screen and (min-width: 464px) {
+    .public .img-publi {
+        height: 120px;
+        border-bottom: none;
+        border-top: none;
+        border-left: none;
+        position: relative;
+    }
+}
+
+.img-publi .barra-categoria {
+    width: 100%;
+    background-color: #222222a7;
+    color: #EEE;
+    font-weight: bold;
+    position: absolute;
+    z-index: 2;
+    bottom: 0;
+}
+
+.img-publi .rounded-start {
+    border-top-left-radius: 0 !important;
+}
+
+.public .info-public {
+    color: #222;
+}
+
+.title-publi {
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.text-orange {
+    color: #B25900 !important;
+}
+
+/* SECTION - TOPs 5 */
+.top5 {
+    background-color: #222;
+}
+
+@media screen and (max-width: 363px){
+    .img-rank {
+        width: 315px !important;
+        height: 120px !important;
+        position: relative !important;
+    }
+    .img-rank img {
+        width: 100% !important;
+        height: 100% !important;
+        object-position: top !important;
+    }
+}
+
+.img-rank {
+    width: 150px;
+    height: 120px;
+    position: relative;
+}
+
+.img-rank img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.barra-title {
+    width: 100%;
+    background-color: #b25900ae;
+    color: #EEE;
+    font-weight: bold;
+    position: absolute;
+    z-index: 2;
+    bottom: 0;
+    font-size: 11px !important;
+}
+
+.ranking {
+    border-top: solid 2px #EEE;
+}
